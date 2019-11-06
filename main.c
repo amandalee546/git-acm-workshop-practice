@@ -7,5 +7,11 @@ float math_func(float x)
 
 int main()
 {
+	for(float i; i < 10; i++){
+		
+		float var = math_func(i);	
+			
+	}
+
 	return 0;
 }
