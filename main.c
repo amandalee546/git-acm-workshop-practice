@@ -2,7 +2,7 @@
 
 float math_func(float x)
 {
-	return 0;
+	return .5 * x;
 }
 
 int main()
