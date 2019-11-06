@@ -7,11 +7,13 @@ float math_func(float x)
 
 int main()
 {
+	float var = 0;
 	for(float i; i < 10; i++){
 		
-		float var = math_func(i);	
+		var = math_func(i);	
 			
 	}
+	printf ("var output %f\n", var); 
 
 	return 0;
 }
